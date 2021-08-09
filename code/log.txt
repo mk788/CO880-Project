@@ -1,0 +1,11 @@
+/cluster/home/arc/mk788/mycode
+pascal01
+Wed  4 Aug 17:03:44 BST 2021
+/var/lib/slurm-llnl/slurmd/job135560/slurm_script: line 14: conda: command not found
+/var/lib/slurm-llnl/slurmd/job135560/slurm_script: line 15: conda: command not found
+Traceback (most recent call last):
+  File "/cluster/home/arc/mk788/mycode/dqn.py", line 4, in <module>
+    import numpy as np
+ImportError: No module named numpy
+Wed  4 Aug 17:03:44 BST 2021
+

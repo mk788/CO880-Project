@@ -20,7 +20,8 @@ class DQN(nn.Module):
         conv_out_size = self._get_conv_out(input_shape)
         self.fc = nn.Sequential(
             nn.Linear(conv_out_size, 512),
-            nn.ReLU(),
+            nn.LSTM(conv_out_size, 512),# batch_first=True),
+           # nn.ReLU(),
             nn.Linear(512, n_actions)
         )
 

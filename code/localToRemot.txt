@@ -1,0 +1,14 @@
+scp test.py mk788@raptor.kent.ac.uk:/cluster/home/arc/mk788/mycode
+
+/home/arc/mk788/.local/lib/python3.8/site-packages/numpy
+/home/arc/mk788/.local/lib/python3.8/site-packages/atari_py/atari_roms
+
+Folder upload:
+$ scp -r /path/to/local/source user@ssh.example.com:/path/to/remote/destination 
+
+
+mahbub@mahbub-HP-Pavilion-Laptop-15-cs0xxx:~/Desktop/Project/code/CO880-Project/code/roms$ scp breakout.bin mk788@raptor.kent.ac.uk:/home/arc/mk788/.local/lib/python3.8/site-packages/atari_py/atari_roms 
+
+
+myenv link
+/cluster/home/arc/mk788/myEnv/lib/python3.6/site-packages/numpy
